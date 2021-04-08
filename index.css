@@ -1,0 +1,61 @@
+header {
+ display: flex;
+ justify-content: space-between;
+ background-color: #77d9ff;
+ border-bottom: 10px solid #B1F56E;
+ padding: 10px 20px;
+ 
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    text-decoration: none;   /*para tirar o underline do link*/
+    margin-right: 30px;      /*espaçamento entre os links*/
+}
+
+a::before {
+    content:"";
+    background-color: #E56EF5 ;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#button {
+    display: inline-block;         /*o display inline não permite definir altura e largura*/
+    background-color: #E56EF5;
+    margin: 0;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 #000;    /* x y blur color */  /*x e y positivos = sombra p/baixo*/ /*blur = esfumaçado*/
+    transition: transform 150ms linear;     /* modifica o tempo e o tipo do transform */
+}
+
+#button:hover {
+    transform: scale(1.08);
+    
+}
+
+
+
+h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 40px;
+    color: #c450d3;
+    text-shadow: 4px 4px 0 black;
+
+}
+
