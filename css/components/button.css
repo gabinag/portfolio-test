@@ -1,0 +1,19 @@
+.button {
+    display: inline-block;         /*o display inline não permite definir altura e largura*/
+    background-color:#F2798F;
+    margin: 0;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 #000;    /* x y blur color */  /*x e y positivos = sombra p/baixo*/ /*blur = esfumaçado*/
+    transition: transform 150ms linear;     /* modifica o tempo e o tipo do transform */
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.button:hover {
+    transform: scale(1.08);
+    
+}
