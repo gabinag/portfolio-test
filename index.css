@@ -1,8 +1,8 @@
 header {
  display: flex;
  justify-content: space-between;
- background-color: #77d9ff;
- border-bottom: 10px solid #B1F56E;
+ background-color: #7F71D9;
+ border-bottom: 10px solid #463F73;
  padding: 10px 20px;
  
 }
@@ -24,7 +24,7 @@ a {
 
 a::before {
     content:"";
-    background-color: #E56EF5 ;
+    background-color:#F2798F ;
     width: 10px;
     height: 10px;
     margin-right: 10px;
@@ -32,7 +32,7 @@ a::before {
 
 #button {
     display: inline-block;         /*o display inline não permite definir altura e largura*/
-    background-color: #E56EF5;
+    background-color:#F2798F;
     margin: 0;
     height: 60px;
     line-height: 60px;
@@ -54,8 +54,27 @@ h1 {
     font-size: 40px;
     font-weight: normal;
     line-height: 40px;
-    color: #c450d3;
+    color:#f15672;
     text-shadow: 4px 4px 0 black;
-
+    
 }
 
+h2{
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 0 black;
+    color: white;
+}
+
+#box {
+    display: inline-block;
+    background-color: #7F71D9;
+    box-shadow: 10px 10px 0 black;
+    text-align: center;
+    padding: 42px 45px;
+}
+
+#box h1 {
+    margin-bottom: 28px;
+
+}
