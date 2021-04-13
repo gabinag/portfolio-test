@@ -4,6 +4,13 @@
     font-weight: normal;
     line-height: 40px;
     color:#f15672;
-    text-shadow: 4px 4px 0 black;
+    text-shadow: 4px 4px 0 #000;
     
+}
+
+.title.-second {
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    text-shadow: none;
 }
