@@ -19,11 +19,13 @@
     <link rel="stylesheet" href="css/components/section.css">
     <link rel="stylesheet" href="css/components/skill-tec.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
+    <link rel="stylesheet" href="css/components/wrapper-skill.css">
+    <link rel="stylesheet" href="css/components/card-project.css">
     
 </head>
 <body>
     <header class="header">
-        <img src="assets/img/logo2.jpeg" alt="logo Gabi Nagamuta">
+        <img class="logo-header" src="assets/img/logo1.jpeg" alt="logo Gabi Nagamuta">
         <nav>
             <a class="action" href="" lang="en">Skills</a>
             <a class="action" href="">Projetos</a>
@@ -48,14 +50,51 @@
     <section class="section">
         <h1 class="main-title -second">Skills</h1>
 
-        <article class="skill-tec">           
-            <img class="icon" src="assets/img/ico_html5.png" alt="Logo HTML5"> 
-            <div class="right">
-                <h3 class="title">HTML</h3>
-                <progress class="progress-bar" max="100" value="50">50%</progress>
-            </div>   
-        </article>
+        <div class="wrapper-skill">
+            <article class="skill-tec">           
+                <img class="icon" src="assets/img/ico_html5.png" alt="Logo HTML5"> 
+                <div class="right">
+                    <h3 class="title">HTML</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                </div>   
+            </article>
 
+            <article class="skill-tec">           
+                <img class="icon" src="assets/img/ico_js.png" alt="Logo JavaScript"> 
+                <div class="right">
+                    <h3 class="title">JavaScript</h3>
+                    <progress class="progress-bar" max="100" value="30">30%</progress>
+                </div>   
+            </article>
+
+            <article class="skill-tec">           
+                <img class="icon" src="assets/img/ico_css3.png" alt="Logo CSS3"> 
+                <div class="right">
+                    <h3 class="title">CSS</h3>
+                    <progress class="progress-bar" max="100" value="50">50%</progress>
+                </div>   
+            </article>
+
+            <article class="skill-tec">           
+                <img class="icon" src="assets/img/ico_nodejs.png" alt="Logo nodeJs"> 
+                <div class="right">
+                    <h3 class="title">Node JS</h3>
+                    <progress class="progress-bar" max="100" value="20">20%</progress>
+                </div>   
+            </article>
+        </div>
+    </section>
+
+    <section class="section">
+        <figure class="card-project">
+            <img class="logo" src="assets/img/logo-cursoemvideo.jpg" alt="Logo curso em video">
+        </figure>
+        <figure class="card-project">
+            <img class="logo" src="assets/img/logo-codepen.png" alt="Logo codepen">
+        </figure>
+        <figure class="card-project">
+            <img class="logo" src="assets/img/logo1.jpeg" alt="Logo da página pessoal">
+        </figure>
     </section>
 </body>
 </html>
