@@ -2,10 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6C5BD9;
+    background-color: #fff;
     width: 280px;
     height: 280px;
-    box-shadow: 10px 10px 0px #fff;
+    box-shadow: 10px 10px 0px #000;
 }
 
 .card-project .logo {

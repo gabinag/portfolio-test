@@ -2,7 +2,7 @@
     background-color: #B472E8;
     padding-top: 40px;
     padding-bottom: 100px;
-    border-bottom: 10px solid #e757ca;
+    border-bottom: 10px solid black;
 
 }
 
@@ -11,6 +11,6 @@
 }
 
 .section.-second {
-    background-color: #000;
+    background-color: #2C2A59;
 }
 
