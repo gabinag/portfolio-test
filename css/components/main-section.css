@@ -1,4 +1,4 @@
-.section {
+.main-section {
     background-color: #B472E8;
     padding-top: 40px;
     padding-bottom: 100px;
@@ -6,11 +6,11 @@
 
 }
 
-.section .main-title {
+.main-section .main-title {
     margin-bottom: 70px;
 }
 
-.section.-second {
+.main-section.-second {
     background-color: #2C2A59;
 }
 
