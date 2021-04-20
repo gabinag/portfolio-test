@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display: inline-block;         /*o display inline não permite definir altura e largura*/
     background-color:#F2798F;
     margin: 0;
@@ -13,7 +13,7 @@
     font-size: 20px;
 }
 
-.button:hover {
+.main-button:hover {
     transform: scale(1.08);
     
 }
