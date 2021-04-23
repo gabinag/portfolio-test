@@ -1,6 +1,7 @@
 .main-button {
     display: inline-block;         /*o display inline não permite definir altura e largura*/
     background-color:#F2798F;
+    font-family: "Fira Code", monospace;
     margin: 0;
     height: 60px;
     line-height: 60px;
@@ -16,4 +17,9 @@
 .main-button:hover {
     transform: scale(1.08);
     
+}
+
+.main-button.-full {
+    width: 100%;
+    border: none;
 }
