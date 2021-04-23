@@ -2,7 +2,7 @@
     background-color: #B472E8;
     padding-top: 40px;
     padding-bottom: 100px;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid #463F73;
 
 }
 
@@ -11,6 +11,16 @@
 }
 
 .main-section.-second {
-    background-color: #2C2A59;
+    background-color: #7F71D9;
+}
+
+.main-section .container {
+    display: flex;
+}
+
+.main-section .foto {
+    height: 300px;
+    margin-left: 80px;
+
 }
 
