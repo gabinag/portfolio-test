@@ -1,6 +1,6 @@
 .main-button {
-    display: inline-block;         /*o display inline não permite definir altura e largura*/
-    background-color:#F2798F;
+    display: inline-block;        
+    background-color: #f15672;
     font-family: "Fira Code", monospace;
     margin: 0;
     height: 60px;
