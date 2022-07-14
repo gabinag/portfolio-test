@@ -5,9 +5,15 @@
     border-bottom: 10px solid #463F73;
     padding: 10px 20px;
     
-   }
+}
 
 .main-header .logo-header {
     width: 60px;
     height: 60px;
+}
+
+@media (max-width: 980px) {
+    .main-header > .menu {
+        display: none;
+    } 
 }
